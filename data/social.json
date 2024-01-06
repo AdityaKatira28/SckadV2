@@ -1,19 +1,44 @@
 {
   "links": [
-    {
-      "name": "twitter",
-      "url": "https://twitter.com/zerostaticio",
-      "image": "images/social/twitter.svg"
+	{
+      "name": "Phone",
+      "url": "tel:+918780903006",
+      "image": "images/social/call.svg"
+    },
+	{
+      "name": "Whatsapp",
+      "url": "https://api.whatsapp.com/send?phone=+918780903006",
+      "image": "images/social/whatsapp.svg"
     },
     {
-      "name": "github",
-      "url": "https://github.com/zerostaticthemes/hugo-winston-theme",
-      "image": "images/social/github.svg"
+      "name": "Instagram",
+      "url": "https://instagram.com/sckad_cad",
+      "image": "images/social/instagram.svg"
     },
     {
       "name": "linkedin",
-      "url": "https://www.linkedin.com",
+      "url": "https://www.linkedin.com/in/shubham-kadecha-8553b2131",
       "image": "images/social/linkedin.svg"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/SCKad111",
+      "image": "images/social/fb.svg"
+    },
+    {
+      "name": "Mail",
+      "url": "mailto:sckadtech@gmail.com",
+      "image": "images/social/gmail.svg"
+    },
+	{
+      "name": "YouTube",
+      "url": "https://youtube.com/@sckadcadservices6608",
+      "image": "images/social/youtube.svg"
+    },
+	{
+      "name": "Share",
+      "onclick": "navigator.share({ title: 'SCKad - Engineering Design Services', text: 'Shubham Kadecha - CAD Design Expert', url:'https://sckad.com' });",
+      "image": "images/social/Share.svg"
     }
   ]
 }

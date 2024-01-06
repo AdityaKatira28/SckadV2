@@ -1,13 +1,32 @@
+<script>
+function shareContent() {
+  navigator.share({ title: 'SCKad - Engineering Design Services', text: 'Shubham Kadecha - CAD Design Expert', url: 'https://sckad.com' });
+}
+</script>
 <div class="footer">
   {{ if .Site.Data.social.links }}
   <div class="footer-social">
     {{ range .Site.Data.social.links }}
       <span class="social-icon social-icon-{{ .name | urlize }}">
-        <a href="{{ .url }}" title="{{ .name }}" target="_blank" rel="noopener">
+        <a href="{{ .url | safeURL }}" title="{{ .name }}" target="_blank" rel="noopener" onclick="shareContent()">
           <img src="{{ .image | relURL }}" width="24" height="24" alt="{{ .name }}"/>
         </a>
       </span>
     {{ end }}
   </div>
   {{ end }}
+<div class="design-by">
+  👉 <span style="font-weight: bold; color: #333; ">Crafted by </span>
+  <a href="https://www.adityakatira.com" style="font-weight: bold;">Aditya Katira</a> 👈
 </div>
+
+</div>
+<style>
+.footer {
+  margin-bottom: 20px;
+}
+
+.design-by {
+  margin-top: 20px;
+}
+</style>

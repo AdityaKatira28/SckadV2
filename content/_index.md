@@ -1,6 +1,14 @@
 ---
-title: You don't start out writing good stuff
-description: The hallway smelt of boiled cabbage and old rag mats.
+description: SCKad
+title: Engineering Design Services
 ---
 
-The hallway smelt of boiled cabbage and old rag mats. At one end of it a coloured poster, too large for indoor display, had been tacked to the wall. It depicted simply an enormous face, more than a metre wide: the face of a man of about forty-five, with a heavy black moustache and ruggedly handsome features. Winston made for the stairs. It was no use trying the lift. 
+
+
+Bringing You Quality Design Solutions with Global CAD Design Experts.<br>
+End-to-end digital engineering services across business verticals.<br>
+We offer BIM modeling, CAD services and engineering design automation aligned With
+your tooling capabilities, design approach, and business needs.
+
+
+
