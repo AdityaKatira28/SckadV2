@@ -1,7 +1,9 @@
-baseURL = "/"
+baseURL = "https://sckad.com/"
 languageCode = "en-us"
-title = "Hugo Winston Theme"
+title = "SCKad"
 paginate = 3
+canonifyURLs = true
+enableRobotsTXT = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
@@ -9,31 +11,23 @@ pygmentsUseClasses = true
 [module]
   [module.hugoVersion]
     extended = true
-    min = "0.55.0"
-
+    min = "0.121.2"
+	
 [params]
-  google_analytics_id = ""
-  twitter_handle = "@zerostaticio"
+  google_analytics_id = "G-KK4MZPN0RW"
+  twitter_handle = ""
   showAuthorOnHomepage = true
   showAuthorOnPosts = false
-  showIntroContentOnHomepage = true
   showPostsOnHomepage = false
-  usePaginationOnHomepage = false
-  limitPostsOnHomepage = 3 # only used if usePaginationOnHomepage is false
-  sortPostsByDateOldestFirst = false
   addDot = true
   addFrame = true
-  highlightColor = '#7b16ff'
+  highlightColor = '#ff7b16'
   baseColor = "#ffffff"
   baseOffsetColor = "#eaeaea"
   headingColor = "#1c1b1d"
   textColor = "#4e5157"
-  dotColor = "#7b16ff"
-  enableGoogleFonts = true 
-  googleFontsUrl = "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
-  fontFamilyHeading = "Poppins"
-  fontFamilyParagraph = "Helvetica"
-  fontFamilyMonospace = "monospace"
+  dotColor = "#ff7b16"
+  
 
 # markdown config settings https://gohugo.io/getting-started/configuration-markup/#goldmark
 [markup]
@@ -49,18 +43,4 @@ pygmentsUseClasses = true
     name = 'Home'
     url = '/'
     weight = 1
-  [[menu.main]]
-    name = "Blog"
-    identifier = "blog"
-    weight = 2
-    url = "/posts/"
-  [[menu.main]]
-    name = "About"
-    identifier = "about"
-    weight = 3
-    url = "/About/"
-  [[menu.main]]
-    name = "Tags"
-    identifier = "tags"
-    weight = 4
-    url = "/tags/"
+  
